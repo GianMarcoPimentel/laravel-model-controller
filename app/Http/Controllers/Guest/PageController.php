@@ -22,10 +22,10 @@ class PageController extends Controller
 
         $movies = Movie::all();
 
-        dd($movies);
+        //dd($movies);
 
         
-        return view('movie',);
+        return view('movie',compact('movies'));
 
     }
 }
