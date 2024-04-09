@@ -7,5 +7,8 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-    
+    // creo una funzione (index) in cui inserisco al logica 
+    public function index() {
+        return view('home');
+    }
 }
