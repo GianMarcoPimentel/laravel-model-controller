@@ -2,8 +2,8 @@
 
 @section('content')
 
-<div class="container py-5">
-    <h1>Lista dei Film : </h1>
+<div class="container py-5 ">
+    <h1 class="title py-5">Lista dei Film : </h1>
      <div class="movies">
 
          @foreach ($movies as $currentMovie)
@@ -17,6 +17,10 @@
          @endforeach
 
      </div>
+</div>
+
+<div class="container">
+    <a href="{{ route('home') }}">Torna alla pagina iniziale</a>
 </div>
 
 
