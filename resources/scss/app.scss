@@ -1,1 +1,28 @@
 @import "~bootstrap/scss/bootstrap";
+
+
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    gap: 10px;
+    ul{
+        
+        list-style-type: none;
+
+        width: calc(100% / 3 - (10px * 2 / 3));
+
+        background-color: purple 0.5;
+        
+        border: 40px;
+
+       span{
+        color: red;
+
+         &:hover{
+            text-transform: uppercase;
+         }
+       }
+    }
+}
